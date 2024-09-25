@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import os
 app = Flask(__name__)
 
-# Define a routey wwto serve the index.html file
+# Define a routey wwtro serve the index.html file
 @app.route('/')
 def index():
     return render_template('index.html')
