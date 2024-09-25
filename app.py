@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-# Define faee eroute for page_two
+# Define faeye eroute for page_two
 @app.route('/page_two')
 def page_two():
     return render_template('page_two.html')
